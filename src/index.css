@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.myclass{
+  margin-top: 85px!important;
+}
+
+.text-2xl {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: center;
+  background-color: cornflowerblue;
+  height: 60px;
+  color: aliceblue;
+}
+.mycruseritems{
+  height: 500px !important;
+  background-color:rgb(176, 173, 173);
+}
+.mycruseritems h2{
+  font-size: 50px !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: whitesmoke !important;
+  margin-top: 200px!important;
 }
